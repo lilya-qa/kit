@@ -1,0 +1,68 @@
+* {
+    outline: none;
+}
+
+.header, .footer {
+    height: 100px;
+    background-color: #efefef;
+    vertical-align: top;
+}
+
+.main_table {
+    width: 600px;
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+}
+
+.left {
+    min-width: 150px;
+    width: 150px;
+    vertical-align: top;
+}
+
+.menu {
+    list-style: none;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+
+}
+
+.menu li {
+    padding: 5px;
+    border: 1px solid #333;
+    margin-bottom: 5px;
+}
+
+.menu a, .menu a:hover {
+
+    display: block;
+    text-decoration: none;
+}
+
+.menu a {
+    color: #333;
+}
+
+.menu li:hover, .menu li.active {
+    color: #fff;
+    background-color: cyan;
+}
+
+.right {
+    width: 100%;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+
+.table {
+    border: 1px solid #333;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid #333;
+    padding: 5px;
+}
